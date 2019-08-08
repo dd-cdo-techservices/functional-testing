@@ -55,7 +55,7 @@ public class App
 		}
 		else
 		{
-			driver.navigate().to("http://localhost:8081/LoginWebAppsV1.8/index.jsp");
+			driver.navigate().to("http://cicdpipelineelb-1801309457.us-east-1.elb.amazonaws.com/LoginWebApps");
 		}
 		driver.manage().window().maximize();
 		driver.findElement(By.id("inputEmail")).sendKeys("vinay");
@@ -74,7 +74,7 @@ public class App
 		}
 		else
 		{
-			driver.navigate().to("http://localhost:8081/LoginWebAppsV1.8/index.jsp");
+			driver.navigate().to("http://cicdpipelineelb-1801309457.us-east-1.elb.amazonaws.com/LoginWebApps");
 		}
 		driver.findElement(By.xpath("//a[text()='Register Here!']")).click(); 
 		System.out.println(driver.getCurrentUrl());
@@ -99,7 +99,7 @@ public class App
 		}
 		else
 		{
-			driver.navigate().to("http://localhost:8081/LoginWebAppsV1.8/index.jsp");
+			driver.navigate().to("http://cicdpipelineelb-1801309457.us-east-1.elb.amazonaws.com/LoginWebApps");
 		}
 		driver.manage().window().maximize();
 		driver.findElement(By.id("inputEmail")).sendKeys("vinay");
@@ -122,7 +122,7 @@ public class App
 		}
 		else
 		{
-			driver.navigate().to("http://localhost:8081/LoginWebAppsV1.8/index.jsp");
+			driver.navigate().to("http://cicdpipelineelb-1801309457.us-east-1.elb.amazonaws.com/LoginWebApps");
 		}
 		driver.manage().window().maximize();
 		driver.findElement(By.id("inputEmail")).sendKeys("vinay");
@@ -141,7 +141,7 @@ public class App
 		}
 		else
 		{
-			driver.navigate().to("http://localhost:8081/LoginWebAppsV1.8/index.jsp");
+			driver.navigate().to("http://cicdpipelineelb-1801309457.us-east-1.elb.amazonaws.com/LoginWebApps");
 		}
 		driver.manage().window().maximize();
 		driver.findElement(By.id("inputEmail")).sendKeys("vinay");
