@@ -41,11 +41,11 @@
 		    <artifactId>extentreports</artifactId>
 		    <version>3.0.0</version>
 		 </dependency>
-		 
+	
 		<dependency>
-    <groupId>commons-httpclient</groupId>
-    <artifactId>commons-httpclient</artifactId>
-    <version>3.1-jenkins-1</version>
+    <groupId>HTTPClient</groupId>
+    <artifactId>HTTPClient</artifactId>
+    <version>0.3-3</version>
 </dependency>
 		
   </dependencies>
