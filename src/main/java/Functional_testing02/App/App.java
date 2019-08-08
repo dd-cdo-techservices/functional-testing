@@ -49,14 +49,14 @@ public class App
 	
 	@Test()
 	public void Login_check() {	
-		if(System.getProperty("URL")!= null)
+		/*if(System.getProperty("URL")!= null)
 		{
 		driver.navigate().to(System.getProperty("URL"));
 		}
 		else
-		{
+		{ */
 			driver.navigate().to("http://cicdpipelineelb-1801309457.us-east-1.elb.amazonaws.com/LoginWebApps");
-		}
+		//}
 		driver.manage().window().maximize();
 		driver.findElement(By.id("inputEmail")).sendKeys("vinay");
 		driver.findElement(By.id("inputpassword")).sendKeys("kumar");
@@ -68,14 +68,8 @@ public class App
 	
 	@Test()
 	public void Register() {	
-		if(System.getProperty("URL")!= null)
-		{
-		driver.navigate().to(System.getProperty("URL"));
-		}
-		else
-		{
-			driver.navigate().to("http://cicdpipelineelb-1801309457.us-east-1.elb.amazonaws.com/LoginWebApps");
-		}
+		driver.navigate().to("http://cicdpipelineelb-1801309457.us-east-1.elb.amazonaws.com/LoginWebApps");
+		
 		driver.findElement(By.xpath("//a[text()='Register Here!']")).click(); 
 		System.out.println(driver.getCurrentUrl());
 		driver.manage().window().maximize();
@@ -93,14 +87,8 @@ public class App
 	
 	@Test()
 	public void logout() {	
-		if(System.getProperty("URL")!= null)
-		{
-		driver.navigate().to(System.getProperty("URL"));
-		}
-		else
-		{
-			driver.navigate().to("http://cicdpipelineelb-1801309457.us-east-1.elb.amazonaws.com/LoginWebApps");
-		}
+		driver.navigate().to("http://cicdpipelineelb-1801309457.us-east-1.elb.amazonaws.com/LoginWebApps");
+
 		driver.manage().window().maximize();
 		driver.findElement(By.id("inputEmail")).sendKeys("vinay");
 		driver.findElement(By.id("inputpassword")).sendKeys("kumar");
@@ -116,14 +104,8 @@ public class App
 	@Test()
 	public void navigate() {	
 		
-		if(System.getProperty("URL")!= null)
-		{
-		driver.navigate().to(System.getProperty("URL"));
-		}
-		else
-		{
-			driver.navigate().to("http://cicdpipelineelb-1801309457.us-east-1.elb.amazonaws.com/LoginWebApps");
-		}
+		driver.navigate().to("http://cicdpipelineelb-1801309457.us-east-1.elb.amazonaws.com/LoginWebApps");
+
 		driver.manage().window().maximize();
 		driver.findElement(By.id("inputEmail")).sendKeys("vinay");
 		driver.findElement(By.id("inputpassword")).sendKeys("kumar");
@@ -135,14 +117,8 @@ public class App
 	@Test()
 	public void openchatbot() {	
 		
-		if(System.getProperty("URL")!= null)
-		{
-		driver.navigate().to(System.getProperty("URL"));
-		}
-		else
-		{
-			driver.navigate().to("http://cicdpipelineelb-1801309457.us-east-1.elb.amazonaws.com/LoginWebApps");
-		}
+		driver.navigate().to("http://cicdpipelineelb-1801309457.us-east-1.elb.amazonaws.com/LoginWebApps");
+
 		driver.manage().window().maximize();
 		driver.findElement(By.id("inputEmail")).sendKeys("vinay");
 		driver.findElement(By.id("inputpassword")).sendKeys("kumar");
