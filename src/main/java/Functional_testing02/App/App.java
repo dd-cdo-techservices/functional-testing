@@ -19,12 +19,11 @@ public class App
 	public WebDriver driver;
 	
 	
-	
 	@BeforeTest
 	public void beforeTest() {
 		//System.out.println("The current working directory is " + System.getProperty("user.name"));
-		//System.setProperty("webdriver.chrome.driver", "/tmp/chromedriver");
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Administrator\\Desktop\\Vinay\\chrome_driver\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/tmp/chromedriver");
+		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\Administrator\\Desktop\\Vinay\\chrome_driver\\chromedriver_win32\\chromedriver.exe");
 		ChromeOptions chromeOptions = new ChromeOptions();
 	    chromeOptions.addArguments("--headless");
 		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\Administrator\\Desktop\\Vinay\\chrome_driver\\chromedriver_win32\\chromedriver.exe");
